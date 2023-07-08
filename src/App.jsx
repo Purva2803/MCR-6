@@ -14,8 +14,21 @@ function App() {
 
   return (
     <>
-  <div>
-     welcome !!!!!!!!!!!!1
+  <div
+
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        fontStyle: "bold",
+        fontFamily: "sans-serif",
+        fontSize: "2rem",
+
+      
+      }}
+  >
+     welcome !!!!!!!!!!!!
     </div>
     <Routes>
                 <Route path="/" element={<NewComponent/>} />
