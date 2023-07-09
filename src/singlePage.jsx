@@ -1,10 +1,10 @@
 import React, { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { restaurantsData } from "./data";
-import "./App.css";
+
 import ReviewModal from "./modal";
 import { ReviewContext } from "./context";
-import "./singlePage.css"
+import "./singlepage.css"
 
 export const SinglePage = () => {
   const { addReview } = useContext(ReviewContext);
