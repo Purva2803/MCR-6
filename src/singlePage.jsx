@@ -4,7 +4,7 @@ import { restaurantsData } from "./data";
 import "./App.css";
 import ReviewModal from "./modal";
 import { ReviewContext } from "./context";
-import "./singelPage.css";
+import "./singlePage.css"
 
 export const SinglePage = () => {
   const { addReview } = useContext(ReviewContext);
